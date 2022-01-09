@@ -1,6 +1,8 @@
 fun main(args: Array<String>) {
     val vectorEnteros = intArrayOf(2, 4, 89, 23, 12)
     quickSort(vectorEnteros, 0, vectorEnteros.size-1)
+
+
     print("El vector ordenado por QUICKSORT es: ")
     for(i in vectorEnteros){
         print(" ")
